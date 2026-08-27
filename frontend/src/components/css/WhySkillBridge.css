@@ -1,0 +1,14 @@
+.feature-card {
+  background-color: var(--background);
+  padding: 2.5rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.feature-card h3 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}

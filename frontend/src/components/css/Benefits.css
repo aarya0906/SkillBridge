@@ -1,0 +1,30 @@
+.benefit-box {
+  background-color: var(--surface);
+  padding: 3rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+.benefit-box h3 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+.benefit-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.benefit-box li {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.check-icon {
+  color: var(--success);
+  font-weight: bold;
+  font-size: 1.25rem;
+}

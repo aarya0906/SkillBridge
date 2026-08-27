@@ -1,0 +1,46 @@
+.project-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease;
+}
+.project-card:hover {
+  box-shadow: var(--shadow-md);
+}
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.badge {
+  background-color: var(--secondary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.status {
+  color: var(--success);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.project-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+.company-name {
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.project-desc {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+.w-full {
+  width: 100%;
+}
