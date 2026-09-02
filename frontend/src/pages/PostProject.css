@@ -1,0 +1,51 @@
+.post-project-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+.post-project-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.post-project-container h1 {
+  margin-bottom: 10px;
+}
+
+.post-project-container p {
+  margin-bottom: 30px;
+}
+
+.post-project-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-project-container label {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.post-project-container input,
+.post-project-container select,
+.post-project-container textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.post-project-container button {
+  margin-top: 20px;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.post-project-message {
+  margin-top: 20px;
+  font-weight: 600;
+}

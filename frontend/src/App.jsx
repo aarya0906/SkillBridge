@@ -4,8 +4,14 @@ import Navbar from './components/jsx/Navbar';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Dashboard from './pages/Dashboard.jsx';
+HEAD
+import PostProject from './pages/PostProject';
+import CompanyDashboard from './pages/CompanyDashboard';
+import ProjectDetails from './pages/ProjectDetails';
+import StudentDashboard from './pages/StudentDashboard';
+bd7297e (Complete SkillBridge MVP)
 import './App.css';
+
 
 function App() {
   return (
@@ -16,7 +22,18 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+HEAD
+         <Route path="/post-project" element={<PostProject />} />
+
+<Route path="/company-dashboard" element={<CompanyDashboard />} />
+
+<Route path="/projects/:id" element={<ProjectDetails />} />
+
+<Route
+  path="/student-dashboard"
+  element={<StudentDashboard />}
+/>
+bd7297e (Complete SkillBridge MVP)
         </Routes>
       </div>
     </Router>

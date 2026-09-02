@@ -47,3 +47,17 @@
 .nav-login:hover {
   color: var(--primary);
 }
+.nav-post-project {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 8px 12px;
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.nav-post-project:hover {
+  background: var(--primary);
+  color: white;
+}
